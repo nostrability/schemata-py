@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "schemata-nostr"
+version = "0.1.0"
+description = "Nostr protocol JSON schemas — Python data package"
+license = {text = "GPL-3.0-or-later"}
+requires-python = ">=3.9"
+
+[tool.setuptools.packages.find]
+include = ["schemata*"]
+
+[tool.setuptools.package-data]
+schemata = ["schemas/**/*.json"]
