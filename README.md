@@ -1,5 +1,7 @@
 # schemata-py
 
+[![Test](https://github.com/nostrability/schemata-py/actions/workflows/test.yml/badge.svg)](https://github.com/nostrability/schemata-py/actions/workflows/test.yml)
+
 Python data package for [Nostr](https://nostr.com/) protocol JSON schemas. Vendored from [nostrability/schemata](https://github.com/nostrability/schemata).
 
 ## Usage
